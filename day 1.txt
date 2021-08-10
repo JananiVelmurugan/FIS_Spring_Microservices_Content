@@ -1,0 +1,51 @@
+Banking Project 
++ Dependencies 
+	+ Package
+		+ Class 
+		+ Interface
+		+ Methods
++ Add dependencies manually
++ Dependency Hierarchy Project A - B - C 
++ Add jar,zip,war
+Ex:
+JDBC 
+develop a java app that talks to a db 
+mysql-connector.jar
++ manually 10 jar 
++ Maven - manage all your dependency 
+	+ name of the dependencies(developer)
+	+ download dependencies from central repo (internet connection)
+	+ place it in the local repo - C:\Users\Admin\.m2\repository
+	+ add it to the class path
+	+ build tool 
++ pom.xml - project configuration 
+
+Tightly coupled code 
+class Employee{
+ void main(){ 
+	Project p = new Project();
+	p.getDetails();
+ }
+}
+
+class Project{
+	void getDetails(){}
+}
+
+
+Loosely Coupled
+class Employee{
+ // Spring Ioc Container creates a Project p Object 
+ // Configuration holds the info what are the bean(object) to be created 
+ // Injected p 
+ // bean - object created by the spring IoC container
+ Project p;
+ void main(){ 
+	p.getDetails();
+ }
+}
+
+class Project{
+	void getDetails(){}
+}
+	
