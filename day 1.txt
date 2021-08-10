@@ -49,3 +49,7 @@ class Project{
 	void getDetails(){}
 }
 	
+pom.xml - maven project configuration
+application.properties - application configuration 
+
+
