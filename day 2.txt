@@ -1,0 +1,21 @@
+scope - lifetime of bean
++ singleton - bean default scope(single bean)- cached 
++ prototype (more than one bean) - no caching
+
+Employee,Department,Skill
+
+Food Ordering
+Menu,Cart,Order
+
+Product Ordering
+Item,Category,Cart,Order
+
+Banking App
+Account,Transaction,PersonalDetails
+
+Employee 
+Web Layer - Controller is dependent on service 
+Business Layer - Service is dependent on dao
+DB Layer - DAO 
++ easy to test,debug
++ easy to modify

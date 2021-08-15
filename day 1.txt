@@ -49,7 +49,8 @@ class Project{
 	void getDetails(){}
 }
 	
-pom.xml - maven project configuration
+pom.xml - maven configuration
 application.properties - application configuration 
+date-format.xml - spring configuration 
 
 

@@ -1,0 +1,9 @@
+ctrl+shift+/ - comment in xml 
+ctrl+shift+\ - uncomment in xml 
+ctrl+shift+o - organize package
+ctrl+shift+s - save all
+ctrl+s - save 
+ctrl+shift+f - format code 
+ctrl+d - delete a line
+ctrl+/ - comment 
+ctrl+/(once again) - uncomment
